@@ -25,3 +25,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+ul li span {
+  color: #666;
+  font-size: 0.9em;
+}
+
