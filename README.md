@@ -1,70 +1,53 @@
-mysite
+# mysite
 
-個人用の簡単な Web サイトです。
-学習用の成果物や、自作スクリプト・ツール類をまとめています。
+## 概要 / Overview
 
-This is a simple personal website repository.
-It contains learning outputs, small scripts, and tools I’ve organized for my own use.
+個人用のウェブサイトおよび GitHub Pages 用リポジトリです。  
+プログラミングやツール作成の練習、成果物の展示を目的としています。
 
-目的 / Purpose
+This repository is for my personal website hosted on GitHub Pages.  
+It is used for practice, experiments, and showcasing small projects.
 
-学習・練習の記録
+---
 
-小さな成果物の展示
+## このサイトについて / About this site
 
-自分用の整理（将来的に公開する可能性あり）
+- 学習・練習目的のコードやツールをまとめています
+- すべてが完成品とは限りません
+- 内容は随時更新・整理していきます
 
-Recording learning progress
+- This site contains practice code and small tools
+- Not all projects are finished products
+- Contents may change or be reorganized over time
 
-Showcasing small works
+---
 
-Personal organization (may be shared publicly in the future)
+## コンテンツ / Contents
 
-内容 / Contents
+- トップページ：簡単な自己紹介と作品リンク  
+- works/：ツールや小さな成果物の紹介（準備中を含む）
 
-自己紹介ページ
+- Top page: brief self-introduction and links
+- works/: small tools and projects (some are work in progress)
 
-ツール・スクリプトへのリンク
+---
 
-実験的・試作ページ（不定期更新）
+## 注意 / Notes
 
-Profile page
+一部のコードは個人利用や学習目的で整理したものです。  
+外部ライブラリや参考資料を使用している場合は、各フォルダの README に明記します。  
+一部のコードや文章作成において、AIツールを補助的に利用しています。
 
-Links to tools and scripts
+Some scripts are organized for personal use or learning purposes.  
+External libraries or references are credited in each project’s README where applicable.  
+AI tools were used as a supportive aid for parts of the code and text.
 
-Experimental or prototype pages (updated irregularly)
 
-公開ページ / Live Site
 
-GitHub Pages により公開予定
-(To be published via GitHub Pages)
+---
 
-作品について / About the Works
+## ライセンス / License
 
-このリポジトリには以下が含まれます：
+特に記載がない限り、MIT License とします。
 
-自作コード
-
-学習目的で利用している外部ライブラリ・既存コードを用いたスクリプト
-
-External libraries or existing code are used only for learning purposes.
-When applicable, references and original sources are clearly credited
-in each project’s README.
-
-ライセンス / License
-
-自作部分：MIT License
-
-外部ライブラリ・コード：各プロジェクトのライセンスに従います
-
-Original code: MIT License
-
-External libraries/code: subject to their respective licenses
-
-更新方針 / Update Policy
-
-完成度よりも、記録と整理を重視しています。
-気が向いたときに少しずつ更新します。
-
-This repository prioritizes documentation and organization over completeness.
-Updates are made casually and incrementally.
+Unless otherwise noted, this repository is licensed under the MIT License.
