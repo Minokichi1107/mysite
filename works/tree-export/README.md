@@ -1,3 +1,8 @@
+This is a small, fully self-made batch script for personal use and practice.
+
+個人利用・練習目的で作成した、完全自作の小さなバッチスクリプトです。
+
+
 ## Usage
 
 1. フォルダ構造を一覧化したいディレクトリで  
