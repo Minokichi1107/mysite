@@ -37,3 +37,15 @@
 - tree_export.bat : ツリー出力用バッチ
 - tree.txt : 実行後に生成される出力ファイル
 
+## How it works
+
+- This batch file checks whether a folder path is passed as an argument.
+- If a folder is dragged and dropped, the folder path is used as the target.
+- If no argument is given, the current directory is used.
+- The Windows `tree` command outputs the folder structure to `tree.txt`.
+
+In short:
+- Double-click → current folder
+- Drag & drop → selected folder
+
+（ドラッグ＆ドロップされたかどうかを引数で判定しています）
