@@ -15,6 +15,12 @@ This is a small, fully self-made batch script for personal use and practice.
 
 ※ Windows 標準の `tree` コマンドを使用しています。
 
+1. Run the batch file.
+2. Select a folder when prompted.
+3. A text file containing the folder tree will be generated.
+
+
+
 
 ## Output example
 
