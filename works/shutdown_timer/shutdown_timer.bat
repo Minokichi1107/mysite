@@ -1,31 +1,31 @@
 @echo off
 setlocal
 
-:: å¼•æ•°ãŒã‚ã‚‹ã‹ç¢ºèª
+:: ˆø”‚ª‚ ‚é‚©Šm”F
 if "%~1"=="" (
-  echo ä½•åˆ†å¾Œã«ã‚·ãƒ£ãƒƒãƒˆãƒ€ã‚¦ãƒ³ã—ã¾ã™ã‹ï¼Ÿ
+  echo ‰½•ªŒã‚ÉƒVƒƒƒbƒgƒ_ƒEƒ“‚µ‚Ü‚·‚©H
   set /p minutes=
 ) else (
   set minutes=%~1
 )
 
-:: æ•°å€¤ãƒã‚§ãƒƒã‚¯ï¼ˆç°¡æ˜“ï¼‰
+:: ”’lƒ`ƒFƒbƒNiŠÈˆÕj
 set /a minutes=%minutes% 2>nul
 if errorlevel 1 (
-  echo æ•°å€¤ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚
+  echo ”’l‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B
   pause
   exit /b
 )
 
-:: ç§’ã«å¤‰æ›
+:: •b‚É•ÏŠ·
 set /a total_seconds=%minutes% * 60
 
-:: ç¢ºèª
-echo %minutes% åˆ†å¾Œã«ã‚·ãƒ£ãƒƒãƒˆãƒ€ã‚¦ãƒ³ã—ã¾ã™ã€‚
-choice /m "å®Ÿè¡Œã—ã¾ã™ã‹ï¼Ÿ"
+:: Šm”F
+echo %minutes% •ªŒã‚ÉƒVƒƒƒbƒgƒ_ƒEƒ“‚µ‚Ü‚·B
+choice /m "Às‚µ‚Ü‚·‚©H"
 if errorlevel 2 exit /b
 
-:: å®Ÿè¡Œ
+:: Às
 shutdown /s /t %total_seconds%
 
 endlocal
