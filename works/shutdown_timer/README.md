@@ -52,6 +52,28 @@ Confirmation prompt before execution
 
 Uses the standard Windows shutdown command
 
+## キャンセル方法
+
+シャットダウン予約後に取り消したい場合は、  
+`shutdown_cancel.bat` を実行してください。
+
+このバッチは、Windows に登録されている  
+シャットダウン予定をキャンセルします。
+
+※ 予約が入っていない場合は何も起こりません。
+
+### shutdown_cancel.bat について
+
+このバッチは、`shutdown /a` コマンドを使って  
+予約済みのシャットダウンをキャンセルします。
+
+シャットダウンが予約されていない場合でも  
+安全に実行できます。
+
+### 補足
+
+シャットダウン予約は Windows の機能を利用しています。
+
 注意 / Notes
 
 実行するとアプリケーションは自動保存されません
